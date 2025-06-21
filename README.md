@@ -9,36 +9,41 @@ This is a simple full-stack CRUD-based e-commerce application for managing footw
 
 ## 📂 Folder Structure
 
-📁 Project_Ecom/
-├── 📁 ecom-proj-backend/         # Spring Boot backend
-│   ├── 📁 src/
-│   │   ├── 📁 main/
-│   │   │   ├── 📁 java/
-│   │   │   │   └── com/abin/Footwear/E_com/
-│   │   │   │       ├── controller/        # API controllers
-│   │   │   │       ├── model/             # Entity classes
-│   │   │   │       ├── repository/        # Spring Data JPA repositories
-│   │   │   │       └── FootwearEComApplication.java
-│   │   │   └── 📁 resources/
-│   │   │       ├── application.properties # Spring Boot config
-│   │   │       └── static/
-│   │   └── 📁 test/                        # Unit tests (if any)
-│   └── pom.xml                            # Maven build file
-│
-├── 📁 ecom-proj-frontend/        # React frontend
-│   ├── 📁 ecom-frontend/
-│   │   ├── 📁 public/            # Static files
-│   │   ├── 📁 src/               # React source code
-│   │   │   ├── 📁 components/    # Reusable React components
-│   │   │   ├── 📁 pages/         # Route-based pages
-│   │   │   ├── 📁 services/      # Axios calls and API services
-│   │   │   ├── App.js
-│   │   │   └── index.js
-│   │   └── package.json         # NPM dependencies and scripts
-│   └── README.md (optional)
-│
-└── README.md                    # Main project documentation
+<details> <summary>📁 Click to view folder structure</summary>
+markdown
+Copy
+Edit
+Project_Ecom/
+├── ecom-proj-backend/ # Spring Boot backend
+│ ├── src/
+│ │ ├── main/
+│ │ │ ├── java/
+│ │ │ │ └── com/abin/Footwear/E_com/
+│ │ │ │ ├── controller/ # API controllers
+│ │ │ │ ├── model/ # Entity classes
+│ │ │ │ ├── repository/ # JPA repositories
+│ │ │ │ └── FootwearEComApplication.java
+│ │ │ └── resources/
+│ │ │ ├── application.properties # App configuration
+│ │ │ └── static/
+│ └── pom.xml # Maven build config
 
+├── ecom-proj-frontend/ # React frontend
+│ └── ecom-frontend/
+│ ├── public/ # Static assets
+│ ├── src/
+│ │ ├── components/ # Reusable UI components
+│ │ ├── pages/ # Route-based pages
+│ │ ├── services/ # API integration (Axios)
+│ │ ├── App.js
+│ │ └── index.js
+│ └── package.json # Project dependencies
+
+└── README.md # Project documentation
+
+Copy
+Edit
+</details>
 
 ---
 
