@@ -9,14 +9,35 @@ This is a simple full-stack CRUD-based e-commerce application for managing footw
 
 ## 📂 Folder Structure
 
-
-Project_Ecom/
+📁 Project_Ecom/
+├── 📁 ecom-proj-backend/         # Spring Boot backend
+│   ├── 📁 src/
+│   │   ├── 📁 main/
+│   │   │   ├── 📁 java/
+│   │   │   │   └── com/abin/Footwear/E_com/
+│   │   │   │       ├── controller/        # API controllers
+│   │   │   │       ├── model/             # Entity classes
+│   │   │   │       ├── repository/        # Spring Data JPA repositories
+│   │   │   │       └── FootwearEComApplication.java
+│   │   │   └── 📁 resources/
+│   │   │       ├── application.properties # Spring Boot config
+│   │   │       └── static/
+│   │   └── 📁 test/                        # Unit tests (if any)
+│   └── pom.xml                            # Maven build file
 │
-├── ecom-proj-backend/ → Spring Boot application
-│ └── ... → Controllers, Entities, Repositories, etc.
+├── 📁 ecom-proj-frontend/        # React frontend
+│   ├── 📁 ecom-frontend/
+│   │   ├── 📁 public/            # Static files
+│   │   ├── 📁 src/               # React source code
+│   │   │   ├── 📁 components/    # Reusable React components
+│   │   │   ├── 📁 pages/         # Route-based pages
+│   │   │   ├── 📁 services/      # Axios calls and API services
+│   │   │   ├── App.js
+│   │   │   └── index.js
+│   │   └── package.json         # NPM dependencies and scripts
+│   └── README.md (optional)
 │
-└── ecom-proj-frontend/ → React application
-└── ... → Components, Pages, Services, etc.
+└── README.md                    # Main project documentation
 
 
 ---
@@ -33,6 +54,7 @@ Project_Ecom/
 - Product detail view
 - Bootstrap styling
 
+---
 
 ### 📦 Prerequisites
 
@@ -40,6 +62,8 @@ Project_Ecom/
 - Maven
 - MySQL
 - Node.js & npm
+
+---
 
 ### 🗒️Note
 - This is a learning project. No login or role-based authorization is implemented.
